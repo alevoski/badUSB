@@ -1,5 +1,5 @@
 # BadUSB
-[![Platform](https://img.shields.io/badge/plateform-windows%20%7C%20linux-lightgrey.svg)]  
+![Platform](https://img.shields.io/badge/plateform-windows%20%7C%20linux-lightgrey.svg)  
 
 This project is a study about bad-USB.  
 Project in construction  
@@ -7,25 +7,25 @@ Project in construction
 ## Intro ##
 BadUSB devices areUSB devices with a cpu that can execute scripts automatically  
 when they are mount on a computer.  
-Computers reconize them as "trust worthly devices" like HID device (ie : Keyboard)  
+Computers reconize them as "trust worthly devices" like HID devices (ie : Keyboards)  
 They cannot be detected by antivirus.  
-A badUSB device can do the same ction than a keyboard.
+A badUSB device can do the same actions than a keyboard.
 
 
 ## How to protect ? ##
 Sevaral actions can be done to prevent troubles :  
- - Autolock computer option is not sufficiant : if you leave your computer just lock your session  
- - Don't use your administrator privileges if you don't need them  
- - Never trust unrecognized USB devices (and any devices gloabaly)  
+ - Autolock computer option is not sufficiant : ***if you leave your computer just lock your session***  
+ - ***Don't use your administrator privileges if you don't need them***  
+ - ***Never trust unrecognized USB devices (and any devices gloabaly)***  
     - You should at least scan the device for viruses (with [Decontamine_Linux](https://github.com/alevoski/decontamine_Linux))  
-    - Rembembere that a classic antivirus will not detect anything from an encoded binanry payload  
+    - Remembered that a classic antivirus will not detect anything from an encoded binary payload  
     - Any doubts : don't insert the device on your computer !  
     - Keep in mind that some rogue USB devices can simply [physically destroy your computer](https://thehackernews.com/2016/09/usb-kill-computer.html)  
-- For Windows sysadmin : a secure kind of GPO will save your use rs from this
+- For Windows sysadmin : a  kind of secure GPO will save your users from this
     - Block access to CMD by all means 
     - Disable Windows shortcuts
     - Block access to control panel 
-    - Or at least, your users shouldn't have administrator rights
+    - Or at least, ***your users shouldn't have administrator rights***
 
 ## Getting Started
 Download the project on your computer.
