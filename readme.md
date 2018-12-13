@@ -1,5 +1,5 @@
 # BadUSB
-[![Platform](https://img.shields.io/badge/plateform-windows%20%7C%20linux-lightgrey.svg)  
+[![Platform](https://img.shields.io/badge/plateform-windows%20%7C%20linux-lightgrey.svg)]  
 
 This project is a study about bad-USB.  
 Project in construction  
@@ -17,10 +17,10 @@ Sevaral actions can be done to prevent troubles :
  - Autolock computer option is not sufficiant : if you leave your computer just lock your session  
  - Don't use your administrator privileges if you don't need them  
  - Never trust unrecognized USB devices (and any devices gloabaly)  
-    you should at least scan the device for viruses (with [Decontamine_Linux](https://github.com/alevoski/decontamine_Linux)  
-    rembembere that a classic antivirus will not detect anything from an encoded binanry payload  
-    any doubts : don't insert the device on your computer !  
-    keep in mind that some rogue USB devices can simply [physically destroy your computer](https://thehackernews.com/2016/09/usb-kill-computer.html)  
+    - You should at least scan the device for viruses (with [Decontamine_Linux](https://github.com/alevoski/decontamine_Linux))  
+    - Rembembere that a classic antivirus will not detect anything from an encoded binanry payload  
+    - Any doubts : don't insert the device on your computer !  
+    - Keep in mind that some rogue USB devices can simply [physically destroy your computer](https://thehackernews.com/2016/09/usb-kill-computer.html)  
 - For Windows sysadmin : a secure kind of GPO will save your use rs from this
     - Block access to CMD by all means 
     - Disable Windows shortcuts
