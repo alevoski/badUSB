@@ -1,0 +1,12 @@
+The example bellow will open the control panel
+
+
+DELAY 1000
+WINDOWS r
+DELAY 2000
+STRING control panel
+ENTER
+
+
+To generate the payload : 'java -jar encoder.jar -i C:\RubberDucky\cp.txt -o F:\inject.bin -l fr'
+Where F:\ is the root of your badUSB on a Windows OS.

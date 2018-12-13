@@ -1,0 +1,7 @@
+The example bellow send an email to all the contact of the user logged on the targeted computer.
+It's the best way to make the victim buy sweets or drinks to the other company collabs.
+
+TO BE DONE
+
+To generate the payload : 'java -jar encoder.jar -i C:\RubberDucky\cp.txt -o F:\inject.bin -l fr'
+Where F:\ is the root of your badUSB on a Windows OS.

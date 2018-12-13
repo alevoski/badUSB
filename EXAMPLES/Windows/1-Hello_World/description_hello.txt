@@ -1,0 +1,15 @@
+The example bellow shows a Hello World in a notepad
+
+
+DELAY 1000
+WINDOWS r
+DELAY 2000
+STRING notepad
+DELAY 1000
+ENTER
+DELAY 1000
+STRING Hello World
+
+
+To generate the payload : 'java -jar encoder.jar -i C:\RubberDucky\hello.txt -o F:\inject.bin -l fr'
+Where F:\ is the root of your badUSB on a Windows OS.

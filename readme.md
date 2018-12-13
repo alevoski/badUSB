@@ -1,7 +1,8 @@
 # BadUSB
-[![Platform](https://img.shields.io/badge/plateform-windows%20%7C%20linux-lightgrey.svg]  
+[![Platform](https://img.shields.io/badge/plateform-windows%20%7C%20linux-lightgrey.svg)  
 
 This project is a study about bad-USB.  
+Project in construction  
 
 ## Intro ##
 BadUSB devices areUSB devices with a cpu that can execute scripts automatically  
