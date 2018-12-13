@@ -6,7 +6,7 @@ Project in construction
 
 ## Intro ##
 BadUSB devices are USB devices that fool your computers and let them think they are  
-HID devices whitch are considered "trustworthy devices" (ie : keyboards) because of a microcontroller reprogramming.  
+HID devices which are considered "trustworthy devices" (ie : keyboards) because of a microcontroller reprogramming.  
 They cannot be detected by antivirus.  
 A badUSB device can do the same actions than a keyboard.
 
