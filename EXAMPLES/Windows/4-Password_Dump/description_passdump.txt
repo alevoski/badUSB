@@ -1,5 +1,5 @@
-The example bellow will dump all the passwords of all users of the computer targeted.
-You must obtain mimikatz.exe before then place it on the computer targeted.
+The example bellow will dump all the passwords of all users of the targeted computer .
+You must obtain mimikatz.exe before then place it on the targeted computer .
     You can get it from here https://github.com/gentilkiwi/mimikatz then compile it yourself on a Linux OS.
     Eventually
         you can host the exe on a remote server, this script will download it on the computer victime
