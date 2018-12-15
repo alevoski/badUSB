@@ -1,0 +1,7 @@
+DELAY 1000
+WINDOWS r
+DELAY 2000
+STRING http://fakeupdate.net//win10u/
+ENTER
+DELAY 500
+F11

@@ -1,0 +1,5 @@
+DELAY 1000
+WINDOWS r
+DELAY 2000
+STRING control panel
+ENTER

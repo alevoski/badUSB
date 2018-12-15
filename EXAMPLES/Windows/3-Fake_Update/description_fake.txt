@@ -1,0 +1,14 @@
+The example bellow will open a browser an go to fakeupdate.net to display a fake system update in full screen
+
+
+DELAY 1000
+WINDOWS r
+DELAY 2000
+STRING http://fakeupdate.net//win10u/
+ENTER
+DELAY 500
+F11
+
+
+To generate the payload : 'java -jar encoder.jar -i C:\RubberDucky\fake.txt -o F:\inject.bin -l fr'
+Where F:\ is the root of your badUSB on a Windows OS.
