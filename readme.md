@@ -58,7 +58,7 @@ On virtual machines, it appears there is missing characters at different random 
 ![](EXAMPLES/Windows/3-Fake_Update/fake.gif)  
 
 ## Author
-Alexandre BuissĂ©
+Alexandre Buissé
 
 
 
