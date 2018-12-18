@@ -47,6 +47,9 @@ java -jar encoder.jar -i <pathofyourcodetobeencoded> -o <outputpath> -l <yourkey
 java -jar encoder.jar -i /home/userX/hello -o /home/userX/hello.bin -l fr
 ```
 
+#### Detected issue #####
+On virtual machines, it appears there is missing characters at different random positions of a typed string.  
+
 #### Demos (Windows OS)  
 *** Hello World ***  
 ![](EXAMPLES/Windows/1-Hello_World/hello.gif)  
@@ -55,7 +58,7 @@ java -jar encoder.jar -i /home/userX/hello -o /home/userX/hello.bin -l fr
 ![](EXAMPLES/Windows/3-Fake_Update/fake.gif)  
 
 ## Author
-Alexandre Buissé
+Alexandre BuissĂ©
 
 
 
